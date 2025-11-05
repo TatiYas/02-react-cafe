@@ -1,12 +1,12 @@
 import css from "./App.module.css";
-
+import "modern-normalize";
 import { useState } from "react";
-import CafeInfo from "../CafeInfo/CafeInfo.tsx";
+import CafeInfo from "../CafeInfo/CafeInfo";
 import VoteOptions from "../VoteOptions/VoteOptions.tsx";
 import VoteStats from "../VoteStats/VoteStats.tsx";
 import Notification from "../Notification/Notification.tsx";
-import type { Votes } from "../../types/votes.ts";
-import type { VoteType } from "../../types/votes.ts";
+import type { Votes } from "../../types/votes";
+import type { VoteType } from "../../types/votes";
 
 function App() {
   const [votes, setVotes] = useState<Votes>({
@@ -57,3 +57,4 @@ function App() {
 }
 
 export default App;
+
