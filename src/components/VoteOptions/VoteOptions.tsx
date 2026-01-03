@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+
 import type { VoteType } from "../../types/votes";
 import css from "./VoteOptions.module.css";
 
