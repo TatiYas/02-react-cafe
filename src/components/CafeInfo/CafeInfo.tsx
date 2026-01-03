@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import css from "./CafeInfo.module.css";
 
 function CafeInfo() {
